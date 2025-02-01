@@ -1,5 +1,5 @@
 # BUILD file for a bazel-native OpenFHE build
-load("@heir//bazel/openfhe:copts.bzl","OPENFHE_DEFINES", "OPENFHE_COPTS", "MAYBE_OPENFHE_LINKOPTS", "MAYBE_OPENMP_COPTS")
+load("@heir//bazel/openfhe:copts.bzl", "MAYBE_OPENFHE_LINKOPTS", "MAYBE_OPENMP_COPTS", "OPENFHE_COPTS", "OPENFHE_DEFINES")
 
 package(
     default_visibility = ["//visibility:public"],

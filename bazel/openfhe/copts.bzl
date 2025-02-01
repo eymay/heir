@@ -43,4 +43,3 @@ MAYBE_OPENMP_COPTS = select({
     "@heir//:config_enable_openmp": _OPENMP_COPTS,
     "@heir//:config_disable_openmp": [],
 })
-
